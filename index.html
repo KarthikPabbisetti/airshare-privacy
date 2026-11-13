@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for AirShare - 100% Offline Peer-to-Peer File Sharing for Android">
+  <meta name="theme-color" content="#4F46E5">
+  <title>AirShare — Privacy Policy</title>
+  <style>
+    :root {
+      --bg-color: #F8FAFC;
+      --surface-color: #FFFFFF;
+      --text-primary: #0F172A;
+      --text-secondary: #475569;
+      --text-muted: #64748B;
+      --accent-color: #4F46E5;
+      --accent-hover: #4338CA;
+      --accent-soft: #EEF2FF;
+      --accent-border: #C7D2FE;
+      --border-color: #E2E8F0;
+      --border-subtle: #F1F5F9;
+      --success-text: #047857;
+      --success-bg: #ECFDF5;
+      --success-border: #A7F3D0;
+      --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.07), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-full: 9999px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 2.5rem 1.25rem 4rem 1.25rem;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    /* Header styling */
+    header {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .app-icon {
+      width: 52px;
+      height: 52px;
+      background: linear-gradient(135deg, #4F46E5 0%, #6366F1 100%);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      box-shadow: 0 4px 10px rgba(79, 70, 229, 0.35);
+      flex-shrink: 0;
+    }
+
+    .brand-text h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+    }
+
+    .brand-text .app-subtitle {
+      font-size: 0.925rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .header-divider {
+      height: 1px;
+      background: var(--border-subtle);
+      margin: 1.25rem 0;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      font-size: 0.875rem;
+    }
+
+    .badge-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: var(--radius-full);
+    }
+
+    .badge-primary {
+      background-color: var(--accent-soft);
+      color: var(--accent-color);
+      border: 1px solid var(--accent-border);
+    }
+
+    .badge-success {
+      background-color: var(--success-bg);
+      color: var(--success-text);
+      border: 1px solid var(--success-border);
+    }
+
+    .effective-date {
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .effective-date strong {
+      color: var(--text-primary);
+    }
+
+    /* Key Summary Callout */
+    .summary-card {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FAFBFC 100%);
+      border: 1px solid var(--border-color);
+      border-left: 4px solid var(--accent-color);
+      border-radius: var(--radius-md);
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .summary-card h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .summary-card p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-bottom: 1.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.015em;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+    }
+
+    .section-title .section-icon {
+      color: var(--accent-color);
+      flex-shrink: 0;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      font-size: 0.975rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Feature Grid / Cards */
+    .highlight-box {
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0;
+    }
+
+    .highlight-box.zero-data {
+      background-color: #F8FAFC;
+      border: 1.5px solid var(--accent-border);
+      position: relative;
+    }
+
+    .highlight-box p {
+      color: var(--text-primary);
+      font-size: 0.975rem;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    /* Permissions list */
+    .permission-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+    }
+
+    .permission-item {
+      background: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .permission-item:hover {
+      border-color: var(--accent-border);
+    }
+
+    .permission-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .permission-tag {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: var(--accent-soft);
+      color: var(--accent-color);
+    }
+
+    .permission-item h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .permission-item p {
+      margin: 0;
+      color: var(--text-secondary);
+      font-size: 0.925rem;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 0.875em;
+      background-color: #F1F5F9;
+      color: var(--text-primary);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      border: 1px solid #E2E8F0;
+    }
+
+    /* Contact box */
+    .contact-box {
+      background: linear-gradient(135deg, var(--surface-color) 0%, var(--accent-soft) 100%);
+      border: 1px solid var(--accent-border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--accent-color);
+      font-weight: 600;
+      text-decoration: none;
+      word-break: break-all;
+      transition: color 0.15s ease;
+    }
+
+    .contact-link:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 0.25rem;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.875rem 2.5rem 0.875rem;
+      }
+      header {
+        padding: 1.5rem 1.25rem;
+      }
+      .content-card {
+        padding: 1.5rem 1.25rem;
+      }
+      .brand-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+      }
+      .meta-bar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media print {
+      body {
+        background-color: #FFFFFF;
+        padding: 0;
+      }
+      header, .content-card, .summary-card {
+        box-shadow: none;
+        border: 1px solid #CCCCCC;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header Section -->
+    <header>
+      <div class="brand-row">
+        <div class="app-icon" aria-hidden="true">
+          <!-- Direct Wi-Fi / P2P Sharing Waves SVG Icon -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
+            <path d="M12 12v9" />
+            <path d="m8 17 4 4 4-4" />
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>AirShare</h1>
+          <div class="app-subtitle">P2P Offline File Sharing for Android</div>
+        </div>
+      </div>
+
+      <div class="header-divider"></div>
+
+      <div class="meta-bar">
+        <div class="badge-group">
+          <span class="badge badge-success">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            100% Offline
+          </span>
+          <span class="badge badge-primary">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            Zero Servers
+          </span>
+        </div>
+        <div class="effective-date">
+          Effective Date: <strong>November 12, 2026</strong>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Executive Summary Card -->
+    <div class="summary-card">
+      <h2>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        Summary of Our Privacy Commitment
+      </h2>
+      <p>
+        AirShare was built from the ground up on a fundamental privacy principle: <strong>your data belongs solely to you</strong>. AirShare does not use any cloud servers, databases, or analytics engines. All file discovery and data transfer occurs purely device-to-device across local hardware connections.
+      </p>
+    </div>
+
+    <!-- Section 1: Zero Data Collection & Zero Servers -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+          <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+          <line x1="6" y1="6" x2="6.01" y2="6"></line>
+          <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          <line x1="2" y1="2" x2="22" y2="22" stroke="#EF4444" stroke-width="2.5"></line>
+        </svg>
+        Zero Data Collection & Zero Servers
+      </h2>
+      <div class="highlight-box zero-data">
+        <p>
+          AirShare operates 100% offline between nearby Android devices using the Google Play Services Nearby Connections API. No files, contacts, device identifiers, or analytics are uploaded to any server or third party.
+        </p>
+      </div>
+      <p>
+        Specifically:
+      </p>
+      <ul style="margin-left: 1.5rem; margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.95rem;">
+        <li style="margin-bottom: 0.5rem;"><strong>No Remote Servers:</strong> We do not operate, host, or communicate with any cloud servers, databases, or central repositories.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>No User Tracking or Analytics:</strong> We do not integrate crash reporters, advertising SDKs, tracking pixels, or usage analytics libraries.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>No Accounts or Registration:</strong> You never need to sign up, sign in, or provide your name, phone number, or email to use AirShare.</li>
+        <li><strong>No Intermediaries:</strong> Files are streamed directly point-to-point from sender to receiver without passing through external networks.</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: Permissions Used (On-Device Only) -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        Permissions Used (On-Device Only)
+      </h2>
+      <p>
+        To facilitate direct device-to-device wireless transmission without an internet connection, Android requires certain system permissions. All requested permissions are handled strictly on your local device:
+      </p>
+
+      <div class="permission-list">
+
+        <!-- Wi-Fi, Bluetooth & Location -->
+        <div class="permission-item">
+          <div class="permission-header">
+            <span class="permission-tag">Connectivity</span>
+            <h3>Wi-Fi, Bluetooth & Location</h3>
+          </div>
+          <p>
+            Used strictly for local peer-to-peer device discovery and high-speed direct file transfer; location coordinates are never stored or transmitted.
+          </p>
+          <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+            <em>Note on Android Location Permission:</em> Android operating system policies require apps scanning for local Bluetooth low energy (BLE) and Wi-Fi Direct beacons to request Location access. AirShare never accesses, collects, logs, or shares your geographic coordinates or GPS location data.
+          </p>
+        </div>
+
+        <!-- Storage / Media -->
+        <div class="permission-item">
+          <div class="permission-header">
+            <span class="permission-tag">File System</span>
+            <h3>Storage / Media</h3>
+          </div>
+          <p>
+            Used only to read files you choose to send and save received files to your <code>Downloads/</code> folder.
+          </p>
+          <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">
+            AirShare only reads files that you explicitly select for sharing through the system file picker. Received files are saved directly into your device's standard <code>Downloads/</code> directory where you maintain complete access and ownership.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: Google Play Services Nearby Connections API -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+        Underlying Technology
+      </h2>
+      <p>
+        AirShare leverages the official <strong>Google Play Services Nearby Connections API</strong> to establish direct, high-bandwidth peer-to-peer Wi-Fi and Bluetooth connections between nearby Android devices.
+      </p>
+      <p>
+        The Nearby Connections API handles low-level cryptographic handshakes and device discovery locally. AirShare configures this connection in an offline-only mode, guaranteeing that file payloads transfer directly between device radios without routing through internet servers or Google infrastructure.
+      </p>
+    </section>
+
+    <!-- Section 4: Children's Privacy -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
+        Children’s Privacy
+      </h2>
+      <p>
+        Because AirShare does not collect, store, transmit, or process any personal data from any user, it does not collect personal information from children under the age of 13 (or any other age group). The app is entirely safe and private for users of all ages.
+      </p>
+    </section>
+
+    <!-- Section 5: Policy Updates -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        Changes to This Privacy Policy
+      </h2>
+      <p>
+        We may update this Privacy Policy from time to time. Any changes will be published directly to this page with an updated effective date. Because we do not collect contact details or maintain user accounts, we encourage you to review this page periodically for any updates.
+      </p>
+    </section>
+
+    <!-- Section 6: Contact Information -->
+    <section class="content-card">
+      <h2 class="section-title">
+        <svg class="section-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        Contact Information
+      </h2>
+      <p>
+        If you have any questions, feedback, or concerns regarding this Privacy Policy or AirShare's offline privacy practices, please contact us directly:
+      </p>
+      <div class="contact-box">
+        <div>
+          <span style="font-size: 0.8rem; font-weight: 600; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em;">Developer Contact Email</span>
+        </div>
+        <a class="contact-link" href="mailto:karthikpabbisetti2026@gmail.com">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          karthikpabbisetti2026@gmail.com
+        </a>
+      </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 AirShare. All rights reserved.</p>
+      <p>Effective Date: November 12, 2026 &bull; Designed for 100% On-Device Privacy</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
